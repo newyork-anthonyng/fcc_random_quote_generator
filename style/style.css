@@ -4,10 +4,23 @@ body {
 
 .quote-button {
   background-color: red;
+  height: 2em;
+  text-align: center;
+  box-shadow: 0 0.5em 0.5em gray;
+  width: 25%;
+  margin: 0 auto;
+  font-size: 3em;
   color: white;
-  text-align: center; }
+  font-family: "Lato", sans-serif;
+  font-weight: 300; }
   @media (max-width: 700px) {
     .quote-button {
-      background-color: #0099FF; } }
+      background-color: #0099FF;
+      height: 2.5em;
+      width: 90%; } }
+
+.quote-button > p {
+  vertical-align: baseline;
+  line-height: 2em; }
 
 /*# sourceMappingURL=style.css.map */

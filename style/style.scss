@@ -2,7 +2,9 @@ $break-small:700px;
 
 // *** Button variables *** //
 $button-background-color:#0099FF;
-$button-text-color:white;
+$button-color:white;
+$button-font-family:'Lato', sans-serif;
+$button-font-weight:300;
 
 body {
   max-width:100%;
@@ -10,12 +12,28 @@ body {
 }
 
 .quote-button {
+  // Button
   background-color:red;
-  color:$button-text-color;
+  height:2em;
   text-align:center;
+  box-shadow:0 0.5em 0.5em gray;
+  width:25%;
+  margin:0 auto;
 
+  // Font
+  font-size:3em;
+  color:$button-color;
+  font-family:$button-font-family;
+  font-weight:$button-font-weight;
 
   @media(max-width:$break-small) {
     background-color:$button-background-color;
+    height:2.5em;
+    width:90%;
   }
+}
+
+.quote-button > p {
+  vertical-align:baseline;
+  line-height:2em;
 }
