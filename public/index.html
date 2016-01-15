@@ -4,7 +4,7 @@
   <title>Random Quote</title>
   <link href="./style/style.css" type="text/css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:300|Josefin+Slab" rel="stylesheet" type="text/css">
-  <link href="./public/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="./favicon.ico" rel="shortcut icon" type="image/x-icon">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 </head>
 
@@ -15,15 +15,15 @@
 
   <div class="vertical-separator"></div>
 
-  <div class="quote-text">
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
-    </p>
-    <p id="author">Author's name</p>
-  </div>
+  <div class="quote-text"></div>
 
   <hr class="horizontal-separator">
+  <div id="twitter">
+    <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="Random Quotes" data-text="REPLACE ME" data-size="large" data-hashtags="RandomQuotes">Tweet</a>
+  </div>
 
   <script src="./app.js"></script>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
 </body>
 </html>
