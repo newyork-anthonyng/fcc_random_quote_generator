@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/newyork-anthonyng/random_quote_generator#readme",
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "request": "^2.67.0"
   }
 }
