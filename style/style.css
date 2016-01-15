@@ -3,7 +3,7 @@ body {
   overflow-x: hidden; }
 
 .quote-button {
-  background-color: red;
+  background-color: #0099FF;
   height: 2em;
   text-align: center;
   box-shadow: 0 0.5em 0.5em gray;
@@ -13,14 +13,46 @@ body {
   color: white;
   font-family: "Lato", sans-serif;
   font-weight: 300; }
-  @media (max-width: 700px) {
+  @media (max-width: 1000px) {
     .quote-button {
-      background-color: #0099FF;
       height: 2.5em;
       width: 90%; } }
 
 .quote-button > p {
   vertical-align: baseline;
   line-height: 2em; }
+
+.quote-text {
+  margin: 3em auto;
+  width: 50%;
+  color: #333333;
+  font-size: 1.5em;
+  line-height: 1.75em; }
+  @media (max-width: 1000px) {
+    .quote-text {
+      width: 90%; } }
+
+#author {
+  text-decoration: underline; }
+
+.horizontal-separator {
+  visibility: hidden;
+  width: 90%; }
+  @media (max-width: 1000px) {
+    .horizontal-separator {
+      visibility: visible; } }
+
+.vertical-separator {
+  height: 10em;
+  width: 1em;
+  border-left: solid black 1px;
+  float: left;
+  margin-left: 22em;
+  margin-top: 4em; }
+  @media (max-width: 1000px) {
+    .vertical-separator {
+      height: 0;
+      width: 0;
+      visibility: hidden; } }
 
 /*# sourceMappingURL=style.css.map */
