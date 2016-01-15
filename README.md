@@ -4,7 +4,7 @@ This is the second front-end project for freecodecamp.com. You have to create a 
 ## Hosted on [Heroku](http://fcc-randomquote.herokuapp.com/)
 
 ## Tools Used
-jQuery, HTML/CSS, Forismatic API to retrieve quotes, Twitter API to tweet
+jQuery, HTML and SCSS/CSS, Forismatic API to retrieve quotes, Twitter API to tweet
 
 ## User Stories
   * User will be able to press a button to get a quote
