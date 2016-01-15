@@ -1,0 +1,13 @@
+body {
+  max-width: 100%;
+  overflow-x: hidden; }
+
+.quote-button {
+  background-color: red;
+  color: white;
+  text-align: center; }
+  @media (max-width: 700px) {
+    .quote-button {
+      background-color: #0099FF; } }
+
+/*# sourceMappingURL=style.css.map */

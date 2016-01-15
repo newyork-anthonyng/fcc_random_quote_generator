@@ -1,0 +1,21 @@
+$break-small:700px;
+
+// *** Button variables *** //
+$button-background-color:#0099FF;
+$button-text-color:white;
+
+body {
+  max-width:100%;
+  overflow-x:hidden;
+}
+
+.quote-button {
+  background-color:red;
+  color:$button-text-color;
+  text-align:center;
+
+
+  @media(max-width:$break-small) {
+    background-color:$button-background-color;
+  }
+}
