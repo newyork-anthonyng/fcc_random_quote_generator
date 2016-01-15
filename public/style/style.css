@@ -18,6 +18,9 @@ body {
       height: 2.5em;
       width: 90%; } }
 
+.quote-button:hover {
+  cursor: pointer; }
+
 .quote-button > p {
   vertical-align: baseline;
   line-height: 2em; }
