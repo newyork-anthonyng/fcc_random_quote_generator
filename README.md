@@ -1,7 +1,7 @@
 ## Random Quote Generator
 This is the second front-end project for freecodecamp.com. You have to create a website that allows you to generate random quotes.
 
-## Not yet hosted online
+## Hosted on [Heroku](http://fcc-randomquote.herokuapp.com/)
 
 ## Tools Used
 jQuery, HTML/CSS, Forismatic API to retrieve quotes, Twitter API to tweet
