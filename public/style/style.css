@@ -24,6 +24,9 @@ body {
 .quote-button > p {
   vertical-align: baseline;
   line-height: 2em; }
+  @media (max-width: 1000px) {
+    .quote-button > p {
+      line-height: 2.5em; } }
 
 .quote-text {
   margin: 3em auto;

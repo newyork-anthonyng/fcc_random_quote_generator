@@ -48,6 +48,10 @@ body {
 .quote-button > p {
   vertical-align:baseline;
   line-height:2em;
+
+  @media(max-width:$break-small) {
+    line-height:2.5em;
+  }
 }
 
 // ****************************************************************************
